@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <div id="app">
+      <div class="container">
+          <div id="registration-form" class="form">
+              <h2>User Registration</h2>
+              <!-- Registration form fields -->
+              <input type="text" id="firstName" placeholder="First Name" required>
+              <input type="text" id="lastName" placeholder="Last Name" required>
+              <input type="tel" id="phoneNumber" placeholder="Phone Number" required>
+              <input type="date" id="dob" required>
+              <input type="email" id="email" placeholder="Email" required>
+              <input type="password" id="password" placeholder="Password" required>
+              <input type="file" id="profilePicture">
+              <button onclick="registerUser()">Register</button>
+          </div>
+
+          
+
+          
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/register.js"></script>
+
+<script>
+    function Register() {
+        
+        window.location.href = "dashboard.html";
+    }
+</script>
+</body>
+</html>
